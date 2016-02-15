@@ -1,4 +1,4 @@
-var Person = require('./lib/Person');
+var Person = require('./Person');
 
 var ben = new Person("Ben Franklin");
 var george = new Person("George Washington");
