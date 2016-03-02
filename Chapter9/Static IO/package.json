@@ -1,0 +1,19 @@
+{
+  "name": "ws-sample",
+  "version": "1.0.0",
+  "description": "A sample of a simple websocket",
+  "main": "ws.js",
+  "scripts": {
+    "start": "open index.html & node ws"
+  },
+  "keywords": [
+    "Websocket"
+  ],
+  "author": "Brett Morin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5",
+    "ws": "^1.0.1"
+  }
+}
