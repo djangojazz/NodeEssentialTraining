@@ -1,6 +1,7 @@
 var ws = new WebSocket("ws://localhost:3000");
+
 ws.onopen = function() {
-    SetTitle("Connected to Cyber Chat");
+    setTitle("Connected to Cyber Chat");
 };
 
 ws.onclose = function() {
@@ -8,7 +9,7 @@ ws.onclose = function() {
 };
 
 ws.onmessage = function(payload) {
-  printMessage(payload.data);
+    printMessage(payload.data);
 };
 
 document.forms[0].onsubmit = function () {

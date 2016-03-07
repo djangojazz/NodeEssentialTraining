@@ -1,0 +1,20 @@
+{
+  "name": "testingSample",
+  "version": "1.0.0",
+  "description": "A sample of testing",
+  "main": "ws.js",
+  "scripts": {
+    "start": "open index.html & node ws"
+  },
+  "keywords": [
+    "Test"
+  ],
+  "author": "Brett Morin",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "nock": "^7.2.2"
+  }
+}
